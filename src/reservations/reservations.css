@@ -1,0 +1,54 @@
+.reservation-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#reservation-description {
+    font-size: 1.1rem;
+    margin-bottom: 7vh;
+}
+
+#reservation-form {
+    display: flex;
+    flex-direction: column;
+    width: clamp(500px, 75%, 900px);
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(var(--main-color), 0.1);
+    align-self: center;
+}
+
+.form-element {
+    display: flex;
+}
+
+.form-element > label, input, textarea, button {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+
+}
+
+.form-element > label {
+    min-width: 200px;
+    font-weight: 600;
+}
+
+.form-element > input, textarea {
+    flex-grow: 1;
+    border: 2px solid rgb(var(--main-color), 0.4);
+    border-radius: 10px;
+}
+
+.form-element > textarea {
+    resize: vertical;
+}
+
+#reservation-form > button {
+    align-self: flex-end;
+    font-weight: 600;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 255, 0.2);
+}
