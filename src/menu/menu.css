@@ -1,0 +1,9 @@
+.menu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    height: 90%;
+    align-self: center;
+}
